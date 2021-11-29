@@ -7,7 +7,8 @@ nav{
 ::-moz-focus-inner {border:0;}
 
 #mainNav {
-  background-color: #00205b;
+  background-color: #221F72;
+  height: 70px;
 }
 
 #navbar{
@@ -28,7 +29,7 @@ nav{
 }
 
 #mainNav .dropdown-menu {
-  background-color:#00205b;
+  background-color:#221F72;
   color:#FFF;
   text-align:center;
   width:100%;
@@ -47,7 +48,7 @@ nav{
   text-transform: uppercase;
   color: #FFFFFF;
   border: 0;
-  background-color: #00205b;
+  background-color: #221F72;
   font-family: "Oswald";
 }
 
@@ -90,7 +91,7 @@ nav{
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: #00205b;
+    background-color: #221F72;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -103,7 +104,7 @@ nav{
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #00205b;
+    background-color: #221F72;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.45em;
@@ -131,14 +132,15 @@ nav{
 
 .banner-box {
   background-color: rgb(30,30,30);
-  background-color: rgba(30, 30, 30, 0.7);
-  border-radius: 2rem;
+  background-color: rgba(30, 30, 30, 0.9);
+  border-radius: 1rem;
   color: #fff;
   font-size: 1.5em;
   font-weight: 400;
   text-align: center;
   width: 60%;
   margin: auto;
+  padding: 0.75rem;
 }
 
 .banner-content {
@@ -149,12 +151,14 @@ nav{
 .banner-title {
   color: #fff;
   font-family: "Oswald", sans-serif;
-  font-size: 8em;
+  font-size: 4em;
   font-weight: 600;
-  letter-spacing: 0.75vw;
-  line-height: 8rem;
+  line-height: auto;
   text-align: center;
   text-transform: uppercase;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .banner-footer {
@@ -184,7 +188,7 @@ nav{
 }
 
 .btn-lrc{
-  background-color: #00205b;
+  background-color: #221F72;
   color: white;
 }
 
@@ -211,8 +215,7 @@ nav{
   }
 
   .banner-title{
-    font-size:4em;
-    line-height: 4rem;
+    font-size:2em;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -230,7 +233,7 @@ nav{
 /*ACCORDION*/
 #toggleNav {
   display: inline-block;
-  background-color: #002770;
+  background-color: #221F72;
   color: #fff;
   width: 50px;
   height: 50px;
@@ -250,16 +253,16 @@ nav{
   visibility: hidden;
 }
 #toggleNav.show {
-  opacity: 0.2;
+  opacity: 0.75;
   visibility: visible;
 }
 #toggleNav:active {
-  background-color: #002770;
+  background-color: #221F72;
 }
 #toggleNav:hover {
   opacity: 1;
   cursor: pointer;
-  background-color: #002770;
+  background-color: #221F72;
 }
 #toggleNav.closed{
   left: 10px;
@@ -269,7 +272,7 @@ nav{
 
 
 .accordion {
-  background-color: #002770;
+  background-color: #221F72;
   overflow: auto;
   position: -webkit-sticky;
   position: -moz-sticky;
@@ -461,7 +464,7 @@ body {
   margin: 0;
   cursor: pointer;
   color: #fcfcfc;
-  background: #002770;
+  background: #221F72;
   transition: color 0.25s ease-in, background-color 0.25s ease-in;
 }
 
@@ -499,7 +502,7 @@ body {
 
 .acnav__link--level2, .acnav__label--level2 {
   padding-left: 3em;
-  background: #0054f0;
+  background: #494188;
 }
 
 .acnav__link--level2:hover, .acnav__label--level2:hover {
@@ -510,7 +513,7 @@ body {
 
 .acnav__link--level3, .acnav__label--level3 {
   padding-left: 5em;
-  background: #70a2ff;
+  background: #7770a6;
 }
 
 .acnav__link--level3:hover, .acnav__label--level3:hover {
@@ -585,7 +588,7 @@ figure figcaption{
   font-size: 70%;
   font-style: italic;
   margin-top: 1.5rem;
-  background-color: #00205B28;
+  background-color: #221F7228;
   border-radius: 0.25rem;
 }
 
